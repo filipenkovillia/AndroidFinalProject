@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="studentInfo">Student Info</string>
+    <string name="laboratorna1">Laboratorna 1</string>
+    <string name="laboratorna2">Laboratorna 2</string>
+    <string name="laboratorna3">Laboratorna 3</string>
+    <string name="laboratorna4">Laboratorna 4</string>
+    <string name="laboratorna5">Laboratorna 5</string>
+    <string name="help">Help</string>
+    <string name="studentInfoText">Філіпенков Ілля ТТП-3</string>
+    <string name="title_activity_help">Help Activity</string>
+    <string name="helpText">
+        "Лабораторна робота №1\nПрограма обчислення виразу\n"
+        "Програма обчислює вираз, заданий у варіанті. Необхідно задати значення трьох змінних та натиснути кнопку Calculate\n\n"
+        "Лабораторна робота №2\nЗбереження значення функції у файлі\n"
+        "Програма обчислює вираз, заданий у варіанті та записує його значення у файл."
+        "Необхідно задати значення п'яти змінних та натиснути кнопку Calculate."
+        "Для відображення результату у вигляді пар натисніть View result\n\n"
+        "Лабораторна робота №3\nПобудова графіку функції\n"
+        "Програма обчислює вираз, заданий у варіанті, записує його значення у файл а також може відобразити результат у вигляді графіка."
+        "Необхідно задати значення п'яти змінних. Обрахований результат можна відобразити у вигляді пар або графіка."
+        "Є можливість відобразити вміст файлу з результатом у вигляді пар або графіка\n\n"
+        "Лабораторна робота №4\nЗбереження даних у БД\n"
+        "Програма надає інтерфейс для керування базою даних (дані - інформація про футбольні клуби)"
+        "Можна додати, видалити, редагувати та відобразити записи у БД"
+        "Запит за варіантом - відобразити усі українські клуби та їхній сумарний рейтинг\n\n"
+        "Лабораторна робота №5\nРобота з контактною книгою\n"
+        "Програма відображає інформацію з адресної книги телефона."
+        "Запит за варіантом - відобразити усі контакти, чиї імена по-батькові починаються на Ми\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="calculate">Calculate</string>
+    <string name="valueXText">X Value</string>
+    <string name="valueYText">Y Value</string>
+    <string name="valueDText">D Value</string>
+    <string name="valueX2Text">X2 Value</string>
+    <string name="valueStepText">Step Value</string>
+    <string name="valueX1Text">X1 Value</string>
+    <string name="viewFile">View File</string>
+    <string name="title_activity_laboratorna2_view_file">View File</string>
+    <string name="enterValues">Enter Values</string>
+    <string name="loadFileAsPairs">Load File As Pairs</string>
+    <string name="loadFileAsGraph">Load File As Graph</string>
+    <string name="title_activity_laboratorna3_load_file_as_pairs">
+        Load File As Pairs
+    </string>
+    <string name="viewGraph">View Graph</string>
+    <string name="viewPairs">View Pairs</string>
+    <string name="title_activity_laboratorna3_view_as_pairs">View As Pairs</string>
+    <string name="enterName">Club Name</string>
+    <string name="enterCountry">Country</string>
+    <string name="enterYear">Foundation Year</string>
+    <string name="enterRanking">UEFA Ranking</string>
+    <string name="enterId">Id</string>
+    <string name="delete">Delete</string>
+    <string name="addData">Add Data</string>
+    <string name="selectUkr">Ukrainian</string>
+    <string name="viewAll">View All</string>
+    <string name="ukrRanking">Ukr Ranking</string>
+    <string name="update">Update</string>
+    <string name="getAllContacts">Get All Contacts</string>
+    <string name="getQueryContacts">Get Query Contacts</string>
+    <string name="large_text"></string>
+</resources>

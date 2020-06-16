@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Laboratorna3ViewAsGraph"
+            android:parentActivityName=".Laboratorna3EnterValuesActivity"></activity>
+        <activity
+            android:name=".Laboratorna3ViewAsPairs"
+            android:label="@string/title_activity_laboratorna3_view_as_pairs"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Laboratorna3EnterValuesActivity"/>
+        <activity
+            android:name=".Laboratorna3LoadFileAsPairsActivity"
+            android:label="@string/title_activity_laboratorna3_load_file_as_pairs"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Laboratorna3Activity"/>
+        <activity android:name=".Laboratorna3LoadFileAsGraphActivity"
+            android:parentActivityName=".Laboratorna3Activity"/>
+        <activity android:name=".Laboratorna3EnterValuesActivity"
+            android:parentActivityName=".Laboratorna3Activity"/>
+        <activity
+            android:name=".Laboratorna2ViewFileActivity"
+            android:label="@string/title_activity_laboratorna2_view_file"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Laboratorna2Activity"/>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Laboratorna5Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Laboratorna4Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Laboratorna3Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Laboratorna2Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StudentInfoActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Laboratorna1Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
